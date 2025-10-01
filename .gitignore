@@ -1,0 +1,110 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+.ENV
+.env
+
+# Docker
+*.log
+.docker/
+docker-compose.override.yml
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Secrets and Sensitive Data
+.env
+.env.local
+.env.*.local
+secrets/
+*.key
+*.pem
+*.cert
+*.crt
+config.ini
+credentials.json
+
+# Test files
+test.json
+*.test
+test_*.py
+*_test.py
+*.tmp
+temp/
+tmp/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# MCP specific
+mcp_config.json
+.mcp_cache/
+
+# Security tool outputs
+*.xml
+*.txt.bak
+scan_results/
+output/
+
+# Backup files
+*.bak
+*.backup
+*.old
